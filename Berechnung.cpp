@@ -154,7 +154,7 @@ int main() {
     while (true) {
         std::string input;
         std::cout << "Bitte geben sie die Berechnung ein. (oder schreiben sie 'beenden' um das Programm zu schliessen.):\n";
-        std::cout << "Es stehen folgende Rechenoperatoren zur Auswahl. (+) (-) (*) (/) und nur Ganzzahlen:\n";
+        std::cout << "Es stehen folgende Rechenoperatoren zur Auswahl. (+) (-) (*) (/):\n";
         std::getline(std::cin, input);  // Liest die Eingabe des Benutzers
         if (input == "beenden") break;  // Beendet die Schleife, wenn 'exit' eingegeben wird
 
