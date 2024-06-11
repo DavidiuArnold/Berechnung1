@@ -69,12 +69,12 @@ void loop() {
                 if (operand2 != 0) {
                     result = operand1 / operand2;
                 } else {
-                    Serial.println("Error: Division by zero");
+                    Serial.println("Error: Division durch Null");
                     return;
                 }
                 break;
             default:
-                Serial.println("Error: Invalid operator");
+                Serial.println("Error: Ungültiger Operator");
                 return;
         }
         
